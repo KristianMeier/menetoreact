@@ -4,7 +4,7 @@ import { Campaign } from './Campaign'
 import { Header } from './Header.js'
 import { Footer } from './Footer'
 
-function Layout() {
+export function Layout() {
   return (
     <div>
       <Campaign />
@@ -16,5 +16,3 @@ function Layout() {
     </div>
   )
 }
-
-export default Layout
