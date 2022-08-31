@@ -1,7 +1,7 @@
 import React from 'react'
 import Lorem from './Lorem'
 
-function StaticPage({ img, altText }) {
+const StaticPage = ({ img, altText }) => {
   return (
     <div>
       <figure className='figure'>

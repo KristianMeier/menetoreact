@@ -1,4 +1,4 @@
-export const ArticleData = [
+const ArticleData = [
   {
     id: 1,
     img1: '/images/baker.jpg  ',
@@ -49,3 +49,5 @@ export const ArticleData = [
     date: 'Mar 22, 2022',
   },
 ]
+
+export default ArticleData

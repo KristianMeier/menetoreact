@@ -1,9 +1,9 @@
-import { NavbarData } from '../data/NavbarData'
+import NavbarData from '../data/NavbarData'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
-    <div className='Navbar-container'>
-      <nav>
+    <>
+      <nav className='Navbar-container'>
         <ul className='Navbar-nav'>
           {NavbarData.map((item) => {
             const { link, title, id } = item
@@ -17,6 +17,8 @@ export const Navbar = () => {
           })}
         </ul>
       </nav>
-    </div>
+    </>
   )
 }
+
+export default Navbar

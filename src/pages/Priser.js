@@ -1,11 +1,11 @@
 import React from 'react'
 import StaticPage from '../components/StaticPage'
 
-function Priser() {
+const Priser = () => {
   return (
-    <div>
+    <>
       <StaticPage img={'/images/Priser.png'} altText='Priser' />
-    </div>
+    </>
   )
 }
 

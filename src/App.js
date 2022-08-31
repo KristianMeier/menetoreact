@@ -3,11 +3,11 @@ import Kunder from './pages/Kunder'
 import Priser from './pages/Priser'
 import Teametbag from './pages/Teametbag'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Layout } from './components/Layout'
-import { LayoutArticle } from './components/LayoutArticle'
+import Layout from './components/Layout'
+import LayoutArticle from './components/LayoutArticle'
 import SingleArticle from './components/SingleArticle'
 
-function App() {
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -20,7 +20,7 @@ function App() {
 
             <Route path='/' element={<LayoutArticle />}>
               <Route index element={<Kunder />} />
-              <Route path='kunder/:productId' element={<SingleArticle />} />
+              <Route path='kunder/:articleId' element={<SingleArticle />} />
             </Route>
           </Route>
           <Route path='*' element={<Kunder />} />

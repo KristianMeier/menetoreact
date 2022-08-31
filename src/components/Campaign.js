@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Campaign = () => {
+const Campaign = () => {
   return (
     <div className='campaignbanner'>
       <a href='https://www.google.com' target='_blank' rel='noreferrer'>
@@ -13,3 +13,5 @@ export const Campaign = () => {
     </div>
   )
 }
+
+export default Campaign

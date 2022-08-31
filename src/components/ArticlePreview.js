@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ArticleData } from '../data/ArticleData'
+import ArticleData from '../data/ArticleData'
 
-export const ArticlePreview = () => {
+const ArticlePreview = () => {
   return (
-    <div>
+    <>
       <ul className='articlepreview-grid'>
         {ArticleData.map((item) => {
           const { img1, title, date, text1, path } = item
@@ -32,6 +32,7 @@ export const ArticlePreview = () => {
           )
         })}
       </ul>
-    </div>
+    </>
   )
 }
+export default ArticlePreview

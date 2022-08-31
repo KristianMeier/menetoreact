@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Lorem() {
+const Lorem = () => {
   return (
     <div className='lorem'>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias obcaecati

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const BlackArrow = () => {
+const BlackArrow = () => {
   return (
     <a href='/' className='article-link'>
       &larr; Tilbage
