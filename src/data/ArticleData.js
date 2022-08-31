@@ -1,5 +1,6 @@
 export const ArticleData = [
   {
+    id: 1,
     img1: '/images/baker.jpg  ',
     img2: '/images/baker2.jpg  ',
     img3: '',
@@ -15,6 +16,7 @@ export const ArticleData = [
     date: 'Mar 22, 2022',
   },
   {
+    id: 2,
     img1: '/images/butcher.jpg  ',
     img2: '/images/butcher2.jpg  ',
     img3: '',
@@ -30,6 +32,7 @@ export const ArticleData = [
     date: 'Mar 22, 2022',
   },
   {
+    id: 3,
     img1: '/images/latteart.jpg  ',
     img2: '/images/latteart2.jpg  ',
     img3: '/images/latteart3.jpg',

@@ -90,13 +90,13 @@ ul {
   line-height: 0;
 }
 
-.header-container {
+.Navbar-container {
   margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.header-nav {
+.Navbar-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -106,13 +106,13 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .header-nav {
+  .Navbar-nav {
     gap: 3.6rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .header-nav {
+  .Navbar-nav {
     gap: 4.4rem;
   }
 }
@@ -122,7 +122,14 @@ ul {
   height: 3px;
   border-width: 0;
   background-color: rgb(226 232 240);
-  margin-top: 1rem;
+  max-width: 32rem;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.lorem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .newcustomerstories-titel {
@@ -133,7 +140,7 @@ ul {
   letter-spacing: -0.05em;
 }
 
-.newcustomerstories-header {
+.newcustomerstories-Navbar {
   font-size: 3rem;
 }
 

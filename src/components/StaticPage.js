@@ -1,10 +1,14 @@
 import React from 'react'
+import Lorem from './Lorem'
 
 function StaticPage({ img, altText }) {
   return (
-    <figure className='figure'>
-      <img className='staticpage' src={img} alt={altText} />
-    </figure>
+    <div>
+      <figure className='figure'>
+        <img className='staticpage' src={img} alt={altText} />
+      </figure>
+      <Lorem />
+    </div>
   )
 }
 

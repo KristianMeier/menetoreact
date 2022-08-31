@@ -1,7 +1,7 @@
-export const Navbardata = [
-  { title: 'Det får du', link: '/detfaardu' },
-  { title: 'Kunder', link: '/' },
-  { title: 'Priser', link: '/priser' },
-  { title: 'Teamet bag', link: '/teametbag' },
-  { title: 'Support', link: 'https://support.meneto.com' },
+export const NavbarData = [
+  { id: 1, title: 'Det får du', link: '/detfaardu' },
+  { id: 2, title: 'Kunder', link: '/' },
+  { id: 3, title: 'Priser', link: '/priser' },
+  { id: 4, title: 'Teamet bag', link: '/teametbag' },
+  { id: 5, title: 'Support', link: '/kundehistorier/hej' },
 ]

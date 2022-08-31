@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { ArticleData } from '../data/ArticleData'
 
 export const ArticlePreview = () => {
@@ -6,21 +7,19 @@ export const ArticlePreview = () => {
     <div>
       <ul className='articlepreview-grid'>
         {ArticleData.map((item) => {
-          const { img1, title, date, text1 } = item
+          const { img1, title, date, text1, path } = item
           return (
-            <div>
+            <Link to={path}>
               <li className='articlepreview'>
-                <a href='/'>
-                  <div className='articlepreview-image'>
-                    <figure className='figure'>
-                      <img
-                        src={img1}
-                        alt='img1'
-                        className='articlepreview-imagefit'
-                      />
-                    </figure>
-                  </div>
-                </a>
+                <div className='articlepreview-image'>
+                  <figure className='figure'>
+                    <img
+                      src={img1}
+                      alt='img1'
+                      className='articlepreview-imagefit'
+                    />
+                  </figure>
+                </div>
                 <div className='articlepreview-textcontent'>
                   <div className='articlepreview-heading'>
                     <a href='/'>{title}</a>
@@ -29,7 +28,7 @@ export const ArticlePreview = () => {
                   <p className='articlepreview-normaltext'>{text1}</p>
                 </div>
               </li>
-            </div>
+            </Link>
           )
         })}
       </ul>
