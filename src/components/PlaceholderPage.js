@@ -1,7 +1,7 @@
 import React from 'react'
-import Lorem from './Lorem'
+import Lorem from './utils/Lorem'
 
-const StaticPage = ({ img, altText }) => {
+const PlaceholderPage = ({ img, altText }) => {
   return (
     <div>
       <figure className='figure'>
@@ -12,4 +12,4 @@ const StaticPage = ({ img, altText }) => {
   )
 }
 
-export default StaticPage
+export default PlaceholderPage

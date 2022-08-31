@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BlackArrow = () => {
   return (
-    <a href='/' className='article-link'>
+    <Link to='/' className='article-link'>
       &larr; Tilbage
-    </a>
+    </Link>
   )
 }
 

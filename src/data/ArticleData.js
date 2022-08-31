@@ -14,6 +14,7 @@ const ArticleData = [
       "I beskeden står der, at mit selskabet kun har 8 dage til at indlevere årsrapport. Pludselig henledes mine tanker på en let piben. Det er bare min hamster, som jeg har fået lukket inde i walkin-fryseren. Jeg åbner op for fryseren og tænker kortvarigt over, om jeg skal købe et cover til min iPhone. Med en uafsluttet sag ang. iPhone-coveret googler jeg 'bogholder'. Herefter gik alt godt og jeg har fået en ny hamster. Tak Meneto.",
     text3: '',
     date: 'Mar 22, 2022',
+    path: '/',
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ const ArticleData = [
       'Jeg har droppet min søgen på www.lej-en-svend.dk. Meneto håndtere mit bogholderi og moster Ida har lært mig at blokere de mange påmindelses-emails, som besværliggjorde samarbejdet. Nu er det hele i orden. Tak Meneto.',
     text3: '',
     date: 'Mar 22, 2022',
+    path: '/',
   },
   {
     id: 3,
@@ -47,6 +49,7 @@ const ArticleData = [
     text3:
       'Frustrationen hober sig op inde i mig og jeg vandre mod min cykelhandler. Pludselig ringer telefonen. Det er min Meneto-bogholder der fortæller at jeg skal sende bilag ind for 2019, 2020 og 2021. Det er så fedt, at jeg ikke skal bogfører længere og nu har tid til er finde en erstatning for Jens. Tak Meneto.',
     date: 'Mar 22, 2022',
+    path: '/',
   },
 ]
 

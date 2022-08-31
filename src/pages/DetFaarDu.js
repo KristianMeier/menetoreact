@@ -1,10 +1,10 @@
 import React from 'react'
-import StaticPage from '../components/StaticPage'
+import PlaceholderPage from '../components/PlaceholderPage'
 
 const DetFaarDu = () => {
   return (
     <>
-      <StaticPage img={'/images/DetFaarDu.png'} altText='Det Får du.' />
+      <PlaceholderPage img={'/images/DetFaarDu.png'} altText='Det Får du.' />
     </>
   )
 }

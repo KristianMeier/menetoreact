@@ -1,4 +1,5 @@
 import NavbarData from '../data/NavbarData'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -8,11 +9,11 @@ const Navbar = () => {
           {NavbarData.map((item) => {
             const { link, title, id } = item
             return (
-              <a href={link} key={id}>
+              <Link to={link} key={id}>
                 <li key={id} className='nav-item'>
                   {title}
                 </li>
-              </a>
+              </Link>
             )
           })}
         </ul>

@@ -1,9 +1,9 @@
 import React from 'react'
-import ArticleContent from './ArticleContent'
+import ArticleContent from '../components/ArticleContent'
 import { useParams } from 'react-router-dom'
 import ArticleData from '../data/ArticleData'
 
-const SingleArticle = () => {
+const Kundehistorie = () => {
   const { articleId } = useParams()
   const Article = ArticleData[articleId - 1]
   const {
@@ -54,4 +54,4 @@ const SingleArticle = () => {
   )
 }
 
-export default SingleArticle
+export default Kundehistorie

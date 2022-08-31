@@ -7,6 +7,7 @@
 # TODO
 
 - rename alt og strukturer CSS
+  -fjern react imports er vist ikke nødvendigt.
 
 # Getting Started with Create React App
 

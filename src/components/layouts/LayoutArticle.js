@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import SenesteArtikler from './SenesteArtikler'
-import BlackArrow from './BlackArrow'
+import LatestArticles from '../LatestArticles'
+import BlackArrow from '../utils/BlackArrow'
 
 const LayoutArticle = () => {
   return (
@@ -9,7 +9,7 @@ const LayoutArticle = () => {
       <main className='container'>
         <BlackArrow />
         <Outlet />
-        <SenesteArtikler />
+        <LatestArticles />
       </main>
     </>
   )

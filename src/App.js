@@ -3,9 +3,9 @@ import Kunder from './pages/Kunder'
 import Priser from './pages/Priser'
 import Teametbag from './pages/Teametbag'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
-import LayoutArticle from './components/LayoutArticle'
-import SingleArticle from './components/SingleArticle'
+import Layout from './components/layouts/Layout'
+import LayoutArticle from './components/layouts/LayoutArticle'
+import Kundehistorie from './pages/Kundehistorie'
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
 
             <Route path='/' element={<LayoutArticle />}>
               <Route index element={<Kunder />} />
-              <Route path='kunder/:articleId' element={<SingleArticle />} />
+              <Route path='kunder/:articleId' element={<Kundehistorie />} />
             </Route>
           </Route>
           <Route path='*' element={<Kunder />} />
