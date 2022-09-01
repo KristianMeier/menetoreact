@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/layouts/Layout'
 import LayoutArticle from './components/layouts/LayoutArticle'
 import Kundehistorie from './pages/Kundehistorie'
+import Support from './pages/Support'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             <Route path='detfaardu' element={<DetFaarDu />} />
             <Route path='priser' element={<Priser />} />
             <Route path='teametbag' element={<Teametbag />} />
+            <Route path='support' element={<Support />} />
 
             <Route path='/' element={<LayoutArticle />}>
               <Route index element={<Kunder />} />
