@@ -7,8 +7,9 @@
 # TODO
 
 - rename alt og strukturer CSS
-- Lav h1, h3, p (med et par klassen, bl.a.)
+- Lav h1, h3, p (med et par klassen, bl.a.). Lav 3-5 typer skrifts (inkl. margin linehegiht etc), som can brugesflere steder
 - ryd op i CSS (nest for nemmere navn)
+- Gør som i lesson 71. Det hjælper mig med mit "mange klasser" virvar.
 
 # Getting Started with Create React App
 
