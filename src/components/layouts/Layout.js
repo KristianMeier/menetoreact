@@ -1,8 +1,8 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Campaign from '../Campaign'
+import FooterText from '../FooterText'
 import Navbar from '../Navbar.js'
-import Footer from '../Footer'
 
 const Layout = () => {
   return (
@@ -12,7 +12,7 @@ const Layout = () => {
       <main className='container'>
         <Outlet />
       </main>
-      <Footer />
+      <FooterText />
     </>
   )
 }

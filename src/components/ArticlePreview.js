@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const ArticlePreview = ({ id, img1, title, date, text1, path }) => {
   return (
-    <Link to={id}>
+    <Link to={`/kunder/${id}`}>
       <li className='articlepreview' key={id}>
         <div className='articlepreview-image'>
           <figure className='figure'>

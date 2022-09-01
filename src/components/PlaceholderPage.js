@@ -1,14 +1,20 @@
 import React from 'react'
-import Lorem from './utils/Lorem'
+import Placeholder from './Placeholder'
+import Divider from './utils/Divider'
 
 const PlaceholderPage = ({ img, altText }) => {
   return (
-    <div>
-      <figure className='figure'>
-        <img className='staticpage' src={img} alt={altText} />
-      </figure>
-      <Lorem />
-    </div>
+    <>
+      {console.log(img)}
+      {console.log(altText)}
+      <Placeholder img={img} altText={altText} />
+      <Divider />
+      <Placeholder img={img} altText={altText} />
+      <Divider />
+      <Placeholder img={img} altText={altText} />
+      <Divider />
+      <Placeholder img={img} altText={altText} />
+    </>
   )
 }
 

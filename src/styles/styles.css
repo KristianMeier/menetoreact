@@ -226,7 +226,7 @@ ul {
 }
 
 .staticpage {
-  width: 100%;
+  width: 90%;
   margin-top: 1rem;
 }
 
@@ -318,4 +318,15 @@ ul {
 
 .articleimage {
   width: 100%;
+}
+
+.realfooter {
+  background: black;
+  padding: 5px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.realfooter-text {
+  color: white;
 }

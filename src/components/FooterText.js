@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Campaign = () => {
+const FooterText = () => {
   return (
-    <div className='campaignbanner'>
+    <div className='realfooter'>
       <Link to='/kunder'>
-        <p>
+        <p className='realfooter-text'>
           👋 Velkommen til Meneto - den mindre virksomheds bogholder.{' '}
           <strong>
             <u>Klik her </u>
@@ -17,4 +17,4 @@ const Campaign = () => {
   )
 }
 
-export default Campaign
+export default FooterText
