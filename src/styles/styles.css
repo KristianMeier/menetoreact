@@ -41,6 +41,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   max-width: 56rem;
+  margin-bottom: 8rem;
 }
 
 a,
@@ -74,7 +75,7 @@ ul {
 .nav-item {
   font-weight: 600;
   letter-spacing: -0.025em;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 0;
 }
 
@@ -113,6 +114,8 @@ ul {
   max-width: 32rem;
   align-items: center;
   margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .lorem {

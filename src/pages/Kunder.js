@@ -6,6 +6,7 @@ const Kunder = () => {
     <>
       <div className='frontpage-titel'>Kundehistorier</div>
       <ArticlePreviews />
+      <ArticlePreviews />
     </>
   )
 }
