@@ -7,7 +7,8 @@
 # TODO
 
 - rename alt og strukturer CSS
-  -fjern react imports er vist ikke nødvendigt.
+- Lav h1, h3, p (med et par klassen, bl.a.)
+- ryd op i CSS (nest for nemmere navn)
 
 # Getting Started with Create React App
 
